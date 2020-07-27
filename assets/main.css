@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap);
+* {
+  font-family: "Hel", sans-serif;
+  color: rgba(0,0,0,0.7);
+}
+.container-sail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "academic skills" "interest languages";
+  column-gap: 10px;
+}
+body {
+  background: radial-gradient(circle, #fff 0%, #808080 200%);
+  margin: 0;
+}
+h3,
+p {
+  color: rgba(0,0,0,0.6);
+}
+
+.Header {
+  background: radial-gradient(circle, #3598cd 0%, #000 800%);
+  display: flex;
+  align-items: center;
+}
+.Header-texts {
+  margin-left: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Header-title {
+  flex-grow: 1;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+.Header-jobTitle {
+  flex-grow: 1;
+  margin: 0;
+  color: #fff;
+}
+.Header img {
+  max-width: 200px;
+}
+
+.About {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.About-item {
+  margin: 0;
+  margin-right: 20px;
+  color: #fff;
+}
+.icon {
+  height: 40px;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.Profile {
+  background: secundary-color;
+  padding: 20px;
+  margin-top: 10px;
+}
+.Profile-title {
+  color: #3598cd;
+}
+
+.Experience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: secundary-color;
+  padding: 20px;
+  margin-top: 10px;
+}
+.Experience-item {
+  display: flex;
+  background: #fff;
+  break-inside: avoid-column;
+  border: 2px solid #c7c7c7;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 50px;
+}
+.Experience-item span {
+  color: #3598cd;
+  align-self: center;
+}
+.Experience-title {
+  color: #3598cd;
+}
+
+.Academic {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  grid-area: academic;
+  background: secundary-color;
+  padding: 20px;
+  margin-top: 10px;
+}
+.Academic-title {
+  color: #3598cd;
+}
+.Academic-item {
+  background: #fff;
+  border: 2px solid #c7c7c7;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+}
+.Academic-item span {
+  color: #3598cd;
+  align-self: center;
+}
+
+.Skills {
+  grid-area: skills;
+  background: secundary-color;
+  padding: 20px;
+  margin-top: 10px;
+}
+.Skills-title {
+  color: #3598cd;
+  margin-bottom: 40px;
+}
+.Skills-container {
+  padding: 20px;
+  background: #fff;
+  border: 2px solid #c7c7c7;
+  border-radius: 10px;
+}
+.Skills-item {
+  margin-bottom: 26px;
+}
+.Skills-item_container {
+  width: 100%;
+  border: 2px solid #3598cd;
+}
+.HTML5 {
+  color: #fff;
+  width: 75%;
+  background-color: #3598cd;
+}
+.CSS {
+  color: #fff;
+  width: 50%;
+  background-color: #3598cd /* Blue */;
+}
+.JavaScript {
+  color: #fff;
+  width: 55%;
+  background-color: #3598cd /* Red */;
+}
+.React {
+  color: #fff;
+  width: 40%;
+  background-color: #3598cd /* Dark Grey */;
+}
+.Photoshop {
+  color: #fff;
+  width: 40%;
+  background-color: #3598cd;
+}
+
+.Interest {
+  grid-area: interest;
+  background: secundary-color;
+  padding: 20px;
+  margin-top: 10px;
+}
+.Interest-title {
+  color: #3598cd;
+}
+.Interest-container {
+  background: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.Interest-item p {
+  background: #3598cd;
+  border-radius: 10px;
+  padding: 2px 10px;
+  color: #fff;
+}
+
+.Languages {
+  grid-area: languages;
+  background: secundary-color;
+  padding: 20px;
+  margin-top: 10px;
+}
+.Languages-title {
+  color: #3598cd;
+}
+.Languages-container {
+  display: flex;
+  gap: 40px;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+}
+.Languages-container div {
+  color: #3598cd;
+}
+.Languages-container p {
+  text-transform: uppercase;
+}
+
